@@ -1,5 +1,5 @@
 in TERMINAL.<br>
-Make sure your terminal path is in `~Docker\start-front`
+Make sure your terminal path is in `~Docker\front-end`
 
 ### 1. build dockerfile
 ```
