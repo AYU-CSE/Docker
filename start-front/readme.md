@@ -1,0 +1,31 @@
+in TERMINAL 
+Make sure your terminal path is in `~Docker\start-front`
+
+### 1. build dockerfile
+```
+docker build -t AYU-CSE-frontend .
+```
+`>> You only need to run this command once.`
+
+### 2. run docker image
+```
+docker run -p 5173:5173 --name front-cse AYU-CSE-frontend
+```
+### 3. connect
+Connect via localhost port 5173
+[http://localhost:5173](http://localhost:5173)
+
+### 4. shutdown
+If you can still control the terminal, stop it with `Ctrl+C`.
+Otherwise follows the command `docker stop front-cse`
+
+### 5. delete docker container
+```
+docker rm front-cse
+```
+### 6. delete docker image
+```
+docker rmi AYU-CSE-frontend
+```
+This dockerfile purposed on just preview frontend.
+To connect to the AYU backend, follow this [link]().
