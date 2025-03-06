@@ -4,7 +4,7 @@ LABEL authors="Sangwoo Ha"
 
 RUN apk add --no-cache git bash
 
-WORKDIR /only-front
+WORKDIR /ayu-front-end
 
 RUN git clone https://github.com/AYU-CSE/Frontend.git . 
 RUN npm install
