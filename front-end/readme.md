@@ -2,6 +2,7 @@ in TERMINAL.<br>
 Make sure your terminal path is in `~Docker\front-end`
 
 ### 1. build dockerfile
+Usage : front-end /origin/develop branch . 
 ```
 docker build -t ayu-cse-frontend .
 ```
