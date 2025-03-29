@@ -1,5 +1,5 @@
 `PATH : ~\AYU-CSE`
-# PLEASE CHECK YOUR WORKING PATH !!
+# PLEASE CHECKING YOUR WORKING PATH !!
 # docker build
 ```
 docker build -f Docker\front-end\real-time\Dockerfile -t ayu-real-time Frontend
