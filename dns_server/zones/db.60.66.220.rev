@@ -1,0 +1,11 @@
+$TTL 1h
+@      IN  SOA  linux01.ayu.cs. admin.ayu.cs. (
+          2025050701
+          12h
+          15m
+          4w
+          1h )
+
+@      IN  NS   linux01.ayu.cs.
+102     IN  PTR  linux01.ayu.cs.
+103     IN  PTR  linux02.ayu.cs.
