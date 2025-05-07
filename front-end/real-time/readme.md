@@ -1,5 +1,5 @@
 # PLEASE CHECKING YOUR WORKING PATH !!
-`PATH : ~\AYU-CSE`
+`WIN/MAC PATH : ~\AYU-CSE`
 
 # docker build
 ```
