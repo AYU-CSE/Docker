@@ -1,9 +1,0 @@
-zone "ayu.cs" IN {
-        type master;
-        file "/etc/bind/zones/db.ayu.cs";
-};
-
-zone "60.66.220.in-addr.arpa" IN {
-        type master;
-        file "/etc/bind/zones/db.60.66.220.rev";
-};
