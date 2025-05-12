@@ -2,7 +2,7 @@ FROM node:18-alpine
 
 LABEL authors="Sangwoo Ha"
 
-WORKDIR /ayu-front-end
+WORKDIR /WORKDIR
 
 EXPOSE 5173
 
